@@ -6,8 +6,371 @@ a{
     @return $px / 108px * 1rem; // 108为移动端的分辨率
 }
 
-/*=======头部搜索 start===========*/
-.topbar{
-	height:;
+.container{
+
+
+	.header{
+
+
+		/*=======头部搜索 start===========*/
+		.topbar{
+			display: flex;
+			align-items:center;
+			justify-content:space-between;
+			padding:rem(25px) rem(30px);
+			height:rem(130px);
+			.logo{
+				// flex:1;
+				img{
+					width:rem(78px);
+					height:rem(50px);
+				}
+			}
+			.search{
+				// flex:1;
+				position: relative;
+				width:rem(780px);
+				height:rem(78px);
+				border:1px solid #e5e5e5;
+				border-radius:4px;
+				input{
+					padding: rem(20px) rem(92px);
+					width:rem(596px);
+					height:rem(38px);
+					border:2px solid #e7e7e7;
+					outline:none;
+					color:#b5b6b5;
+					font-size:rem(36px);
+					font-family: Arial,Verdana,Sans-serif;
+				}
+				.iconfont{
+					position: absolute;
+					top:rem(20px);
+					left:rem(36px);
+					font-size:rem(40px);
+					color:#b5b6b5;
+				}
+			}
+			.login{
+				// flex:1;
+				font-size:rem(38px);
+				color:#949694;
+				font-family: Arial,Verdana,Sans-serif;
+				font-weight: bold;
+			}
+		}
+		/*=======头部搜索 end===========*/
+
+		// ============头部导航 start======
+		.v-active{
+			border-bottom: 2px solid #ef5900;
+		}
+		.nav-main{
+			display: flex;
+			padding:rem(20px) rem(30px) rem(35px);
+			height:rem(90px);
+			line-height: rem(90px);
+			color:#737573;
+			font-size: rem(38px);
+			>div{
+				// ???????????????
+				// flex:1;
+				margin-right: rem(80px);
+			}
+		}
+	}
+	// ============头部导航 end======
+	.section{
+
+
+		// =======ppt start ========
+		.ppt{
+			position: relative;
+			height:rem(538px);
+			overflow: hidden;
+			ul{
+				position: absolute;
+				top:0;
+				left:0;
+				display: flex;
+				height:rem(538px);
+				li{
+					flex:1;
+					img{
+						height:rem(538px);
+					}
+				}
+			}
+			.cricle{
+				position: absolute;
+				right:rem(45px);
+				bottom:rem(20px);
+				display: flex;
+				div{
+					margin:0 rem(15px);
+					width:rem(20px);
+					height:rem(20px);
+					background-color:#f8f8f8;
+					border-radius: 50%;	
+				}
+			}
+		}
+		// =======ppt end ========
+
+		// =====功能分类 start======
+		.fenlei{
+			display: flex;
+			height:rem(225px);
+			div{
+				img{
+					height:rem(228px);
+				}
+			}
+		}
+		// =====功能分类 end======
+
+		// =======标题  start=======
+		.title{
+			display: flex;
+			height:rem(114px);
+
+			font-size: 0;
+			img{
+				height:rem(114px);
+			}
+			h3{
+				line-height: rem(114px);
+				color:#000;
+				font-size: rem(32px);
+				font-family: Arial,Verdana,Sans-serif;
+				&::before{
+					content:'|';
+					margin-right:rem(30px);
+					color:#b5b2b5;
+					font-size: rem(38px);
+				}
+			}
+		}
+		// =======标题  end=======
+		.space{
+			height:rem(20px);
+			background-color: #f7f7f7;
+		}
+		.hot-items{
+			display: flex;
+			justify-content:space-between;
+			height:rem(760px);
+			.i-left{
+				img{
+					height:rem(760px);
+				}
+			}
+			.i-right{
+				display: flex;
+				flex-direction:column;
+				height:rem(760px);
+				.ri-top{
+					img{
+						height:rem(378px);
+					}
+				}
+				.ri-bottom{
+					img{
+						height:rem(374px);
+					}
+				}
+			}
+		}
+		.items{
+			img{
+				height:rem(420px);
+			}
+		}
+		// =====明星单品 start=====
+		.start{
+			img{
+				height:rem(658px);
+			}
+		}
+		// =====明星单品 end=======
+		.items{
+			display: flex;
+			flex-wrap:wrap;
+			.right{
+				flex:1;
+			}
+			.item{
+				position: relative;
+				margin-right: rem(6px);
+				height:rem(788px);
+					.large{
+						height:rem(534px);
+					}
+					.small{
+						position: absolute;
+						top:0;
+						left:0;
+						height:rem(48px);
+					}
+				
+				.info{
+					padding:rem(40px) 0 rem(40px) rem(40px);
+					height:rem(244px);
+					font-family: Arial,Verdana,Sans-serif;
+					.titl{
+						color:#212021;
+						font-size: rem(40px);
+					}
+					.des{
+						margin-top:rem(30px);
+						color:#737573;
+						font-size: rem(34px);
+					}
+					.price{
+						margin-top: rem(28px);
+						color:#ff6100;
+						font-size:rem(34px);
+						&::before{
+							content:'￥';
+							margin-right: rem(5px);
+							font-size: rem(24px);
+							color:#ff6100;
+							vertical-align: top;
+						}
+						span{
+							margin-left: rem(18px);
+							color:#ff6100;
+							font-size: rem(28px);
+						}
+					}
+				}
+			}	
+		}
+
+
+		// ======米家智能 start========
+		.auto{
+			.a-top{
+				height:rem(656px);
+			}
+			.a-item{
+				display: flex;
+				height:rem(541px);
+				.a-left{
+					flex:1;
+					position: relative;
+					// height:rem(538px);
+					.lg{
+						height:rem(541px);
+					}
+					.sm{
+						position: absolute;
+						top:0;
+						left:0;
+						height:rem(48px);
+					}
+				}
+				.a-right{
+					// ?????????????
+					flex:1;
+					padding:rem(108px) rem(28px) 0 rem(28px);
+					height:rem(431px);
+					font-family: Arial,Verdana,Sans-serif;
+					.a-titl{
+						color:#212021;
+						font-size: rem(40px);
+					}
+					.a-des{
+						margin-top: rem(28px);
+						line-height: rem(50px);
+						color:#737573;
+						font-size: rem(34px);
+					}
+					.a-price{
+						margin-top: rem(40px);
+						color:#ff6100;
+						font-size: rem(35px);
+						&::before{
+							content:'￥';
+							color:#ff6100;
+							font-size:rem(24px);
+							margin-right: rem(10px);
+							vertical-align: top;
+						}
+						span{
+							color:#737573;
+							font-size: rem(26px);
+							text-decoration: line-through;
+							&::before{
+								content:'￥';
+								color:#737573;
+								text-decoration:none;
+								font-size: rem(26px);
+								margin:0 rem(10px) 0 rem(8px);
+							}
+						}
+					}
+				}
+			}
+			.a-more{
+				height:rem(150px);
+				line-height: rem(150px);
+				text-align: center;
+				color:#666;
+				font-size:rem(40px);
+				font-family: Arial,Verdana,Sans-serif;
+			}
+		}
+		// =======米家智能 end =======
+		.hd{
+			height:rem(418px);
+		}
+
+		.mijia{
+			.m-item{
+				height:rem(711px);
+			}
+		}
+	}
+	// ==========页面 footer start======
+	.footer{
+		display: flex;
+		height:rem(132px);
+		.f-active{
+			.iconfont{
+				color:#f46b00;
+			}
+			h3{
+				color:#f46b00;
+			}	
+		}
+		div{
+			margin-top: rem(20px);
+			flex:1;
+			height:rem(112px);
+
+			.iconfont{
+				display:inline-block;
+				// left:0;
+				// right:0;
+				// margin: o auto;
+				// height:rem(62px);
+				margin: 0 auto;
+				color:#808080;
+				font-size: rem(60px);
+				margin: 0 auto;
+				// text-align: center;
+			}
+			h3{
+				margin-top: rem(10px);
+				color:#989898;
+				font-size: rem(32px);
+				font-family: Arial,Verdana,Sans-serif;
+				text-align: center;
+			}
+		}
+	}
+
+
+	// ==========页面 footer end========
 }
-/*=======头部搜索 end===========*/
