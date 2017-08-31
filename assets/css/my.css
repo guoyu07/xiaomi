@@ -1,0 +1,98 @@
+a {
+  text-decoration: none;
+}
+
+.container .user {
+  padding: 0.44444rem;
+  height: 1.37037rem;
+  background-image: url(../images/bg_0425a88.png);
+  background-color: #f37d0f;
+  background-size: 100% 100%;
+  color: #fff;
+  font-size: 0.31481rem;
+}
+
+.container .user img {
+  margin-right: 0.13889rem;
+  display: inline-block;
+  vertical-align: middle;
+  height: 1.37037rem;
+}
+
+.container .bill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.37037rem 0.40741rem 0.37037rem 0.46296rem;
+  height: 0.37037rem;
+  border-bottom: 0.03704rem solid #dedbde;
+}
+
+.container .bill .mybill {
+  color: #212021;
+  font-size: 0.37037rem;
+}
+
+.container .bill .all {
+  display: flex;
+  align-items: center;
+  color: #737573;
+  font-size: 0.2963rem;
+}
+
+.container .bill .all .iconfont {
+  font-size: 0.44444rem;
+}
+
+.container nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.62963rem 0.74074rem;
+  height: 1.24074rem;
+}
+
+.container nav > div {
+  width: 33.33333%;
+  text-align: center;
+}
+
+.container nav > div img {
+  height: 0.92593rem;
+}
+
+.container nav > div span {
+  display: block;
+  color: #333;
+  font-size: 0.31481rem;
+  margin-top: 0.38889rem;
+}
+
+.container .space {
+  height: 0.2037rem;
+  background-color: #f7f7f7;
+}
+
+.container .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.46296rem 0.37037rem 0.50926rem 0.46296rem;
+}
+
+.container .item > span {
+  display: flex;
+  align-items: center;
+  color: #212021;
+  font-size: 0.37037rem;
+}
+
+.container .item > span > .iconfont {
+  margin-right: 0.46296rem;
+  color: #52bae7;
+  font-size: 0.48148rem;
+}
+
+.container .item > .iconfont {
+  color: 3737573;
+  font-size: 0.42593rem;
+}

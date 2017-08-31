@@ -1,0 +1,182 @@
+@charset "UTF-8";
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 0.55556rem;
+}
+
+.container .header {
+  padding: 0.74074rem 0;
+  height: 2.03704rem;
+  line-height: 2.03704rem;
+  text-align: center;
+  color: #666;
+  font-size: 0.53704rem;
+  font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro", sans-serif;
+}
+
+.container .tit {
+  margin-top: 0.41667rem;
+  margin-bottom: 20px;
+  height: 0.42593rem;
+  line-height: 0.42593rem;
+  color: #313131;
+  font-size: 0.38889rem;
+  font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro", sans-serif;
+}
+
+.container .area {
+  position: relative;
+  padding: 0.35185rem 0 0.37037rem 0.35185rem;
+  height: 0.40741rem;
+  border: 0.02778rem solid #adaead;
+  border-radius: 0.18519rem;
+  color: #525552;
+  font-size: 0;
+}
+
+.container .area input {
+  height: 0.40741rem;
+  outline: none;
+  border: 0;
+  font-size: 0.38889rem;
+}
+
+.container .area .iconfont {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  width: 1.17593rem;
+  height: 1.11111rem;
+  border-left: 0.02778rem solid #adaead;
+  line-height: 1.11111rem;
+  text-align: center;
+  color: #adaead;
+  font-size: 0.53704rem;
+}
+
+.container .des {
+  margin-top: 0.32407rem;
+  height: 0.83333rem;
+  line-height: 0.83333rem;
+  color: #9c9e9c;
+  font-size: 0.37037rem;
+}
+
+.container .phone {
+  position: relative;
+  padding: 0.32407rem 0 0.32407rem 0.35185rem;
+  height: 0.46296rem;
+  border: 0.02778rem solid #adaead;
+  border-radius: 0.18519rem;
+  color: #525552;
+  font-size: 0;
+}
+
+.container .phone input {
+  padding-left: 1.01852rem;
+  height: 0.46296rem;
+  line-height: 0.46296rem;
+  outline: none;
+  border: 0;
+  color: #9c9e9c;
+  font-size: 0.38889rem;
+}
+
+.container .phone span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 1.23148rem;
+  height: 1.11111rem;
+  line-height: 1.11111rem;
+  text-align: center;
+  color: #949294;
+  font-size: 0.31481rem;
+  border-right: 0.02778rem solid #adaead;
+}
+
+.container .phone span .iconfont {
+  color: #9c9e9c;
+  font-size: 0.16667rem;
+}
+
+.container .yanz {
+  display: flex;
+  justify-content: space-between;
+  height: 1.11111rem;
+  font-size: 0;
+}
+
+.container .yanz input {
+  color: #9c9e9c;
+  font-size: 0.37037rem;
+  padding: 0.37037rem 0.27778rem;
+  height: 0.37037rem;
+  line-height: 0.37037rem;
+  outline: none;
+  border: 0;
+  border: 0.02778rem solid #b5b2b5;
+  border-radius: 0.22222rem;
+}
+
+.container .yanz img {
+  height: 1.11111rem;
+}
+
+.container .soon-reg {
+  margin-top: 1.64815rem;
+  height: 1.27778rem;
+  line-height: 1.27778rem;
+  text-align: center;
+  background-color: #31b6ff;
+  border-radius: 0.55556rem;
+  border: 0.01852rem solid #5abdef;
+  color: #fff;
+  font-size: 0.42593rem;
+}
+
+.container .des strong {
+  font-weight: bold;
+}
+
+.container footer span {
+  color: #757575;
+  margin: 0 0.30556rem;
+}
+
+.container footer ul {
+  display: flex;
+  font-size: 0.37037rem;
+  margin-top: 1.30556rem;
+  color: #757575;
+  padding: 0 0.92593rem;
+}
+
+.container footer ul li {
+  padding: 0 0.30556rem;
+}
+
+.container footer ul .jianti {
+  color: #333;
+}
+
+.container footer .bot {
+  margin-top: 0.46296rem;
+  font-size: 0.37037rem;
+  color: #757575;
+  text-align: center;
+  line-height: 0.55556rem;
+}
+
+.container footer .bot a {
+  color: #757575;
+}
+
+.container footer .bot a img {
+  height: 0.55556rem;
+}

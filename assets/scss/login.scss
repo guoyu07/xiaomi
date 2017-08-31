@@ -148,23 +148,22 @@ a{
 	/* 脚部 */
 	footer {
 		    padding: 0 rem(60px);
-		        span {
-		            color: #757575;
-		            margin: 0 rem(33px);
-		        }
-		    
+		    span {
+		        color: #757575;
+		        margin: 0 rem(33px);
+		    }
 		    ul {
 		        display: flex;
 		        font-size: rem(40px);
 		        margin-top: rem(141px);
 		        color: #757575;
 		        padding: 0 rem(100px);
-		        li {
-		            padding: 0 rem(33px);
-		        }
-		        .jianti {
-		            color: #333;
-		        }
+		    	li {
+		         	padding: 0 rem(33px);
+		    	}
+		    	.jianti {
+		        	color: #333;
+		    	}
 		    }
 		    .bot {
 		        margin-top: rem(50px);
@@ -173,7 +172,6 @@ a{
 		        text-align: center;
 		        line-height: rem(60px);
 		        a {
-
 		            color: #757575;
 		            img {
 		                height: rem(60px);

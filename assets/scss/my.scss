@@ -1,0 +1,90 @@
+a{
+	text-decoration: none;
+}
+
+@function rem($px){//$px为需要转换的大小
+    @return $px / 108px * 1rem; // 108为移动端的分辨率
+}
+
+.container{
+	.user{
+		padding:rem(48px);
+		height:rem(148px);
+		background-image:url(../images/bg_0425a88.png);
+		background-color:#f37d0f;
+		background-size:100% 100%;
+		color:#fff;
+		font-size: rem(34px);
+		img{
+			margin-right: rem(15px);
+			display: inline-block;
+			vertical-align: middle;
+			height:rem(148px);
+		}
+	}
+	.bill{
+		display: flex;
+		align-items:center;
+		justify-content:space-between;
+		padding:rem(40px) rem(44px) rem(40px) rem(50px);
+		height:rem(40px);
+		border-bottom:rem(4px) solid #dedbde;
+		.mybill{
+			color:#212021;
+			font-size: rem(40px);
+		}
+		.all{
+			display: flex;
+			align-items:center;
+			color:#737573;
+			font-size: rem(32px);
+			.iconfont{
+				font-size: rem(48px);
+			}
+		}
+	}
+	nav{
+		display: flex;
+		justify-content:space-between;
+		padding: rem(68px) rem(80px);
+		height: rem(134px);
+		>div{
+			width:(100%/3);
+			text-align:center;
+				img{
+					height:rem(100px);
+				}
+				span{
+					display:block;
+					color:#333;
+					font-size: rem(34px);
+					margin-top:rem(42px);
+				}
+		}
+	}
+	.space{
+		height:rem(22px);
+		background-color:#f7f7f7;
+	}
+	.item{
+		display: flex;
+		justify-content:space-between;
+		align-items:center;
+		padding: rem(50px) rem(40px) rem(55px) rem(50px);
+		>span{
+			display: flex;
+			align-items:center;
+			color:#212021;
+			font-size: rem(40px);
+			>.iconfont{
+				margin-right:rem(50px);
+				color:#52bae7;
+				font-size: rem(52px);
+			}
+		}
+		>.iconfont{
+			color:3737573;
+			font-size:rem(46px);
+		}
+	}
+}
