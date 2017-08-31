@@ -334,6 +334,7 @@ a {
 .container .footer {
   display: flex;
   height: 1.22222rem;
+  border-top: 3px solid #dde1e5;
 }
 
 .container .footer .f-active .iconfont {
@@ -351,11 +352,11 @@ a {
 }
 
 .container .footer div .iconfont {
-  display: inline-block;
-  margin: 0 auto;
+  display: block;
+  text-align: center;
+  height: 0.57407rem;
   color: #808080;
   font-size: 0.55556rem;
-  margin: 0 auto;
 }
 
 .container .footer div h3 {

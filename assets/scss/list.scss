@@ -1,0 +1,140 @@
+a{
+	text-decoration: none;
+}
+
+@function rem($px){//$px为需要转换的大小
+    @return $px / 108px * 1rem; // 108为移动端的分辨率
+}
+
+.container{
+	// position: relative;
+	.header{
+		display: flex;
+		align-items:center;
+		justify-content:space-between;
+		padding:0 rem(30px);
+		height:rem(125px);
+		background-color:#f2f2f2;
+		border-bottom: rem(3px) solid #eee;
+		.iconfont{
+			color:#999;
+			font-size: rem(60px);
+		}
+		h3{
+			color:#666;
+			font-size: rem(44px);
+			font-family: Arial,Verdana,Sans-serif;
+		}
+	}
+
+	.section{
+		display: flex;
+		height:rem(500px);
+		.sec-left{
+			flex:1;
+			margin-top: rem(20px);
+			background-color: #fefefe;
+			border-right:rem(3px) solid #efefef;
+			.sec-sctive{
+				height:rem(150px);
+				>a{
+					color:#fb7d34;
+					font-size: rem(46px);
+				}
+			}
+			>div{
+				height:rem(128px);
+				line-height: rem(128px);
+				text-align: center;
+				>a{
+					color:#333;
+					font-size: rem(40px);
+					font-family: Arial,Verdana,Sans-serif;
+				}
+			}
+		}
+		.sec-right{
+			flex:4;
+			background-color: #fff;
+			padding:0 rem(50px);
+			.titl-img{
+				height:rem(311px);
+			}
+			.titl-head{
+				display: flex;
+				align-items:center;
+				justify-content:center;
+				margin-top: rem(25px);
+				height:rem(195px);
+				color: #333;
+				font-size: rem(40px);
+				font-family: Arial,Verdana,Sans-serif;
+				span{
+					margin:0 rem(30px);
+					display: inline-block;
+					width:rem(60px);
+					height:rem(3px);
+					background-color: #e0e0e0;
+					border-radius: rem(2px);
+				}
+			}
+			.boxs{
+				display: flex;
+				flex-wrap:wrap;
+				.box{
+					margin-top:rem(75px);
+					height:rem(240px);
+					width:(100%/3);
+					>img{
+						display: block;
+						height:rem(160px);
+						margin:0 auto;
+					}
+					>h3{
+						margin-top: rem(45px);
+						text-align: center;
+						color:#757575;
+						font-size:rem(32px);
+						font-family: Arial,Verdana,Sans-serif;
+					}
+				}	
+			}
+		}
+	}
+
+	// .footer{
+	// 	display: flex;
+	// 	height:rem(132px);
+	// 	border-top:3px solid #dde1e5;
+	// 	.f-active{
+	// 		.iconfont{
+	// 			color:#f46b00;
+	// 		}
+	// 		h3{
+	// 			color:#f46b00;
+	// 		}	
+	// 	}
+	// 	div{
+	// 		margin-top: rem(20px);
+	// 		flex:1;
+	// 		height:rem(112px);
+	// 		.iconfont{
+	// 			display:block;
+	// 			text-align: center;
+	// 			height:rem(62px);
+	// 			color:#808080;
+	// 			font-size: rem(60px);
+			
+	// 		}
+	// 		h3{
+	// 			margin-top: rem(10px);
+	// 			color:#989898;
+	// 			font-size: rem(32px);
+	// 			font-family: Arial,Verdana,Sans-serif;
+	// 			text-align: center;
+	// 		}
+	// 	}
+	// }
+
+}
+

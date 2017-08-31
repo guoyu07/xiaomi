@@ -1,0 +1,186 @@
+a{
+	text-decoration: none;
+}
+
+@function rem($px){//$px为需要转换的大小
+    @return $px / 108px * 1rem; // 108为移动端的分辨率
+}
+.container{
+	background-color: #eee;
+	.section{
+		padding:0 rem(60px);
+		.header{
+			padding:rem(120px) 0 rem(80px);
+			height:rem(282px);
+			img{
+				display:block;
+				margin:0 auto;
+				height:rem(145px);
+			}
+			h3{
+				margin-top: rem(75px);
+				text-align: center;
+				color:#424242;
+				font-size:rem(56px);
+				font-family: arial,"Hiragino Sans GB","Microsoft YaHei","微軟正黑體","儷黑 Pro",sans-serif;
+			}
+		}
+
+		.login{
+			margin-top: rem(25px);
+			height:rem(262px);
+			border-radius:rem(48px);
+			background-color: #fff;
+			box-shadow: 0 rem(3px) rem(5px) #fff;
+			.email,.pass{
+				padding:rem(40px) rem(35px);
+				height:rem(50px);
+				font-size: 0;
+				input{
+					width:100%;
+					height:rem(50px);
+					outline: none;
+					border:0;
+					color:#9d9d9d;
+					font-size: rem(46px);
+				}
+			}
+			.pass{
+				display: flex;
+				border-top:2px solid #ddd;
+				input{
+					.iconfont{	
+						font-size: rem(48px);
+					}
+				}
+			}
+		}
+		.btns{
+			padding:rem(70px) 0 rem(92px);
+			height:rem(303px);
+			.soonlogin{
+				height:rem(130px);
+				line-height: rem(130px);
+				text-align: center;
+				background-color: #32b5fe;
+				border:rem(2px) solid #5fb3e4;
+				border-radius: rem(65px);
+				a{
+					color:#fff;
+					font-size: rem(42px);
+					font-family: arial,"Hiragino Sans GB","Microsoft YaHei",sans-serif;
+				}
+			}
+			.loreg{
+				margin-top: rem(42px);
+				height:rem(130px);
+				line-height: rem(130px);
+				text-align: center;
+				background-color: #fff;
+				border:rem(2px) solid #ddd;
+				border-radius: rem(65px);
+				a{
+					color:#333;
+					font-size: rem(42px);
+					font-family: arial,"Hiragino Sans GB","Microsoft YaHei",sans-serif;
+				}
+			}
+		}
+		.otherways{
+			height:rem(48px);
+			line-height: rem(48px);
+			text-align: center;
+			color:#b0b0b0;
+			font-size: rem(40px);
+			font-family: arial,"Hiragino Sans GB","Microsoft YaHei","微軟正黑體","儷黑 Pro",sans-serif;
+			&::before{
+				content:'- - - - - - - - - - - - - - ';
+				color:#b0b0b0;
+			}
+			&::after{
+				content:'- - - - - - - - - - - - - - ';
+				color:#b0b0b0;
+			}  
+		}
+		.ways{
+			display: flex;
+			justify-content:space-between;
+			padding:rem(58px) rem(205px) rem(110px);
+			height:rem(142px);
+			a{
+				display: inline-block;
+				height:rem(140px);
+				width:rem(140px);
+				line-height: rem(140px);
+				text-align: center;
+				border-radius: 50%;
+				font-size: rem(70px);
+				color:#fff;
+			}
+			.icon-qq-{
+				background-color:#0189d0;
+			}
+			.icon-xinlangweibo{
+				background-color:#d2302e;
+			}
+			.icon-zhifubao1{
+				background-color:#00abee;
+			}
+		}
+		.attention{
+			height:rem(95px);
+			line-height: rem(95px);
+			text-align: center;
+			font-size: 0;
+			a{
+				color:#747474;
+				font-size: rem(38px);
+			}
+			.forget{
+				&::before{
+					content:'|';
+					margin:0 rem(30px);
+					color:#e0e0e0;
+				}
+			}
+		}
+	}	
+	/* 脚部 */
+	footer {
+		    padding: 0 rem(60px);
+		        span {
+		            color: #757575;
+		            margin: 0 rem(33px);
+		        }
+		    
+		    ul {
+		        display: flex;
+		        font-size: rem(40px);
+		        margin-top: rem(141px);
+		        color: #757575;
+		        padding: 0 rem(100px);
+		        li {
+		            padding: 0 rem(33px);
+		        }
+		        .jianti {
+		            color: #333;
+		        }
+		    }
+		    .bot {
+		        margin-top: rem(50px);
+		        font-size: rem(40px);
+		        color: #757575;
+		        text-align: center;
+		        line-height: rem(60px);
+		        a {
+
+		            color: #757575;
+		            img {
+		                height: rem(60px);
+		            }
+		        }
+		    }
+	}
+}
+
+

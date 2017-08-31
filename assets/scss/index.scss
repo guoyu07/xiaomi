@@ -336,6 +336,7 @@ a{
 	.footer{
 		display: flex;
 		height:rem(132px);
+		border-top:3px solid #dde1e5;
 		.f-active{
 			.iconfont{
 				color:#f46b00;
@@ -348,18 +349,13 @@ a{
 			margin-top: rem(20px);
 			flex:1;
 			height:rem(112px);
-
 			.iconfont{
-				display:inline-block;
-				// left:0;
-				// right:0;
-				// margin: o auto;
-				// height:rem(62px);
-				margin: 0 auto;
+				display:block;
+				text-align: center;
+				height:rem(62px);
 				color:#808080;
 				font-size: rem(60px);
-				margin: 0 auto;
-				// text-align: center;
+			
 			}
 			h3{
 				margin-top: rem(10px);

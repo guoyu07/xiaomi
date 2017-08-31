@@ -1,0 +1,112 @@
+a {
+  text-decoration: none;
+}
+
+.container .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.27778rem;
+  height: 1.15741rem;
+  background-color: #f2f2f2;
+  border-bottom: 0.02778rem solid #eee;
+}
+
+.container .header .iconfont {
+  color: #999;
+  font-size: 0.55556rem;
+}
+
+.container .header h3 {
+  color: #666;
+  font-size: 0.40741rem;
+  font-family: Arial,Verdana,Sans-serif;
+}
+
+.container .section {
+  display: flex;
+  height: 4.62963rem;
+}
+
+.container .section .sec-left {
+  flex: 1;
+  margin-top: 0.18519rem;
+  background-color: #fefefe;
+  border-right: 0.02778rem solid #efefef;
+}
+
+.container .section .sec-left .sec-sctive {
+  height: 1.38889rem;
+}
+
+.container .section .sec-left .sec-sctive > a {
+  color: #fb7d34;
+  font-size: 0.42593rem;
+}
+
+.container .section .sec-left > div {
+  height: 1.18519rem;
+  line-height: 1.18519rem;
+  text-align: center;
+}
+
+.container .section .sec-left > div > a {
+  color: #333;
+  font-size: 0.37037rem;
+  font-family: Arial,Verdana,Sans-serif;
+}
+
+.container .section .sec-right {
+  flex: 4;
+  background-color: #fff;
+  padding: 0 0.46296rem;
+}
+
+.container .section .sec-right .titl-img {
+  height: 2.87963rem;
+}
+
+.container .section .sec-right .titl-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.23148rem;
+  height: 1.80556rem;
+  color: #333;
+  font-size: 0.37037rem;
+  font-family: Arial,Verdana,Sans-serif;
+}
+
+.container .section .sec-right .titl-head span {
+  margin: 0 0.27778rem;
+  display: inline-block;
+  width: 0.55556rem;
+  height: 0.02778rem;
+  background-color: #e0e0e0;
+  border-radius: 0.01852rem;
+}
+
+.container .section .sec-right .boxs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .section .sec-right .boxs .box {
+  margin-top: 0.69444rem;
+  height: 2.22222rem;
+  width: 33.33333%;
+}
+
+.container .section .sec-right .boxs .box > img {
+  display: block;
+  height: 1.48148rem;
+  margin: 0 auto;
+}
+
+.container .section .sec-right .boxs .box > h3 {
+  margin-top: 0.41667rem;
+  text-align: center;
+  color: #757575;
+  font-size: 0.2963rem;
+  font-family: Arial,Verdana,Sans-serif;
+}
