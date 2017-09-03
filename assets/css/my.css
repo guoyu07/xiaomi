@@ -2,6 +2,10 @@ a {
   text-decoration: none;
 }
 
+.container {
+  background-color: #f7f7f7;
+}
+
 .container .user {
   padding: 0.44444rem;
   height: 1.37037rem;
@@ -26,6 +30,7 @@ a {
   padding: 0.37037rem 0.40741rem 0.37037rem 0.46296rem;
   height: 0.37037rem;
   border-bottom: 0.03704rem solid #dedbde;
+  background-color: #fff;
 }
 
 .container .bill .mybill {
@@ -49,6 +54,7 @@ a {
   justify-content: space-between;
   padding: 0.62963rem 0.74074rem;
   height: 1.24074rem;
+  background-color: #fff;
 }
 
 .container nav > div {
@@ -77,6 +83,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 0.46296rem 0.37037rem 0.50926rem 0.46296rem;
+  background-color: #fff;
 }
 
 .container .item > span {
@@ -88,8 +95,27 @@ a {
 
 .container .item > span > .iconfont {
   margin-right: 0.46296rem;
-  color: #52bae7;
   font-size: 0.48148rem;
+}
+
+.container .item > span .icon-zititubiao- {
+  color: #52bae7;
+}
+
+.container .item > span .icon-service {
+  color: #ff6d5a;
+}
+
+.container .item > span .icon-fangzi {
+  color: #ff8a42;
+}
+
+.container .item > span .icon-fmashangpin {
+  color: #ffb200;
+}
+
+.container .item > span .icon-shezhi2 {
+  color: #848e9c;
 }
 
 .container .item > .iconfont {

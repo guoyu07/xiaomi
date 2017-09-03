@@ -10,8 +10,12 @@ a{
 
 
 	.header{
-
-
+		position: fixed;
+		top:0;
+		left:0;
+		z-index: 99;
+		width:100%;
+		background-color: #fff;
 		/*=======头部搜索 start===========*/
 		.topbar{
 			display: flex;
@@ -19,6 +23,7 @@ a{
 			justify-content:space-between;
 			padding:rem(25px) rem(30px);
 			height:rem(130px);
+			// width:100%
 			.logo{
 				// flex:1;
 				img{
@@ -31,13 +36,13 @@ a{
 				position: relative;
 				width:rem(780px);
 				height:rem(78px);
-				border:1px solid #e5e5e5;
+				border:rem(3px) solid #e5e5e5;
 				border-radius:4px;
 				input{
 					padding: rem(20px) rem(92px);
 					width:rem(596px);
 					height:rem(38px);
-					border:2px solid #e7e7e7;
+					border:0;
 					outline:none;
 					color:#b5b6b5;
 					font-size:rem(36px);
@@ -73,8 +78,6 @@ a{
 			color:#737573;
 			font-size: rem(38px);
 			>div{
-				// ???????????????
-				// flex:1;
 				margin-right: rem(80px);
 			}
 		}
@@ -84,22 +87,32 @@ a{
 
 
 		// =======ppt start ========
-		.ppt{
+		.swiper-container{
 			position: relative;
-			height:rem(538px);
+			margin-top: rem(300px);
+			height:rem(540px);
 			overflow: hidden;
-			ul{
-				position: absolute;
-				top:0;
-				left:0;
-				display: flex;
-				height:rem(538px);
-				li{
-					flex:1;
-					img{
-						height:rem(538px);
-					}
+			.swiper-wrapper .swiper-slide {
+				img{
+					height:rem(540px);
 				}
+			}
+			// .swiper-wrapper{
+			// 	position: absolute;
+			// 	top:0;
+			// 	left:0;
+			// 	display: flex;
+			// 	height:rem(540px);
+			// 	.swiper-slide{
+			// 		flex:1;
+			// 		width:100%;
+			// 		img{
+			// 			height:rem(540px);
+			// 		}
+			// 	}
+			// }
+			.swiper-pagination-white{
+				
 			}
 			.cricle{
 				position: absolute;
@@ -255,13 +268,13 @@ a{
 			}
 			.a-item{
 				display: flex;
-				height:rem(541px);
+				height:rem(540px);
 				.a-left{
 					flex:1;
 					position: relative;
-					// height:rem(538px);
+					height:rem(540px);
 					.lg{
-						height:rem(541px);
+						height:rem(540px);
 					}
 					.sm{
 						position: absolute;
@@ -273,8 +286,12 @@ a{
 				.a-right{
 					// ?????????????
 					flex:1;
-					padding:rem(108px) rem(28px) 0 rem(28px);
-					height:rem(431px);
+					// padding:rem(108px) rem(20px) 0 rem(20px);
+					width:100%;
+					padding-top:rem(108px);
+
+					// padding-left: rem(20px);
+					height:rem(432px);
 					font-family: Arial,Verdana,Sans-serif;
 					.a-titl{
 						color:#212021;
@@ -296,6 +313,7 @@ a{
 							font-size:rem(24px);
 							margin-right: rem(10px);
 							vertical-align: top;
+							text-decoration: none;
 						}
 						span{
 							color:#737573;
@@ -327,6 +345,7 @@ a{
 		}
 
 		.mijia{
+			margin-bottom: rem(100px);
 			.m-item{
 				height:rem(711px);
 			}
@@ -334,9 +353,14 @@ a{
 	}
 	// ==========页面 footer start======
 	.footer{
+		position: fixed;
+		left:0;
+		bottom:0;
 		display: flex;
 		height:rem(132px);
+		width:100%;
 		border-top:3px solid #dde1e5;
+		background-color: #fff;
 		.f-active{
 			.iconfont{
 				color:#f46b00;

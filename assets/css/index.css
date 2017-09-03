@@ -4,6 +4,12 @@ a {
 }
 
 .container .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  background-color: #fff;
   /*=======头部搜索 start===========*/
   /*=======头部搜索 end===========*/
 }
@@ -25,7 +31,7 @@ a {
   position: relative;
   width: 7.22222rem;
   height: 0.72222rem;
-  border: 1px solid #e5e5e5;
+  border: 0.02778rem solid #e5e5e5;
   border-radius: 4px;
 }
 
@@ -33,7 +39,7 @@ a {
   padding: 0.18519rem 0.85185rem;
   width: 5.51852rem;
   height: 0.35185rem;
-  border: 2px solid #e7e7e7;
+  border: 0;
   outline: none;
   color: #b5b6b5;
   font-size: 0.33333rem;
@@ -72,36 +78,25 @@ a {
   margin-right: 0.74074rem;
 }
 
-.container .section .ppt {
+.container .section .swiper-container {
   position: relative;
-  height: 4.98148rem;
+  margin-top: 2.77778rem;
+  height: 5rem;
   overflow: hidden;
 }
 
-.container .section .ppt ul {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  height: 4.98148rem;
+.container .section .swiper-container .swiper-wrapper .swiper-slide img {
+  height: 5rem;
 }
 
-.container .section .ppt ul li {
-  flex: 1;
-}
-
-.container .section .ppt ul li img {
-  height: 4.98148rem;
-}
-
-.container .section .ppt .cricle {
+.container .section .swiper-container .cricle {
   position: absolute;
   right: 0.41667rem;
   bottom: 0.18519rem;
   display: flex;
 }
 
-.container .section .ppt .cricle div {
+.container .section .swiper-container .cricle div {
   margin: 0 0.13889rem;
   width: 0.18519rem;
   height: 0.18519rem;
@@ -248,16 +243,17 @@ a {
 
 .container .section .auto .a-item {
   display: flex;
-  height: 5.00926rem;
+  height: 5rem;
 }
 
 .container .section .auto .a-item .a-left {
   flex: 1;
   position: relative;
+  height: 5rem;
 }
 
 .container .section .auto .a-item .a-left .lg {
-  height: 5.00926rem;
+  height: 5rem;
 }
 
 .container .section .auto .a-item .a-left .sm {
@@ -269,8 +265,9 @@ a {
 
 .container .section .auto .a-item .a-right {
   flex: 1;
-  padding: 1rem 0.25926rem 0 0.25926rem;
-  height: 3.99074rem;
+  width: 100%;
+  padding-top: 1rem;
+  height: 4rem;
   font-family: Arial,Verdana,Sans-serif;
 }
 
@@ -298,6 +295,7 @@ a {
   font-size: 0.22222rem;
   margin-right: 0.09259rem;
   vertical-align: top;
+  text-decoration: none;
 }
 
 .container .section .auto .a-item .a-right .a-price span {
@@ -327,14 +325,23 @@ a {
   height: 3.87037rem;
 }
 
+.container .section .mijia {
+  margin-bottom: 0.92593rem;
+}
+
 .container .section .mijia .m-item {
   height: 6.58333rem;
 }
 
 .container .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   display: flex;
   height: 1.22222rem;
+  width: 100%;
   border-top: 3px solid #dde1e5;
+  background-color: #fff;
 }
 
 .container .footer .f-active .iconfont {

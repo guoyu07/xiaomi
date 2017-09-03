@@ -1,0 +1,218 @@
+a {
+  text-decoration: none;
+}
+
+.container .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.27778rem;
+  height: 1.15741rem;
+  background-color: #f2f2f2;
+  border-bottom: 0.02778rem solid #eee;
+}
+
+.container .header .iconfont {
+  color: #999;
+  font-size: 0.55556rem;
+}
+
+.container .header h3 {
+  color: #666;
+  font-size: 0.40741rem;
+  font-family: Arial,Verdana,Sans-serif;
+}
+
+.container .login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.53704rem 0.37037rem 0.53704rem 0.46296rem;
+  height: 0.37037rem;
+  background-color: #fff;
+}
+
+.container .login .logined {
+  color: #212121;
+  font-size: 0.38889rem;
+}
+
+.container .login .go {
+  display: flex;
+  align-items: center;
+  color: #757573;
+  font-size: 0.2963rem;
+}
+
+.container .login .go .iconfont {
+  font-size: 0.40741rem;
+}
+
+.container .goods .item {
+  display: flex;
+  padding: 0.51852rem 0.2963rem 0.51852rem 0.41667rem;
+  height: 2.59259rem;
+  border-bottom: 0.02778rem solid #f6f6f6;
+}
+
+.container .goods .item .check {
+  flex: 1;
+  height: 2.59259rem;
+  line-height: 2.59259rem;
+}
+
+.container .goods .item .check img {
+  height: 0.59259rem;
+}
+
+.container .goods .item .img {
+  flex: 3;
+}
+
+.container .goods .item .img img {
+  height: 2.59259rem;
+}
+
+.container .goods .item .info {
+  flex: 5;
+  height: 2.59259rem;
+}
+
+.container .goods .item .info .des {
+  line-height: 0.42593rem;
+  color: #666;
+  font-size: 0.37037rem;
+}
+
+.container .goods .item .info .price {
+  line-height: 0.62963rem;
+  color: #999;
+  font-size: 0.31481rem;
+}
+
+.container .goods .item .info .num {
+  display: flex;
+  justify-content: space-between;
+  height: 0.92593rem;
+}
+
+.container .goods .item .info .num .input-num {
+  display: flex;
+  width: 2.48148rem;
+  height: 0.91667rem;
+  line-height: 0.91667rem;
+  border: 0.02778rem solid #eee;
+}
+
+.container .goods .item .info .num .input-num .number {
+  flex: 1;
+  text-align: center;
+  color: #51555a;
+  font-size: 0.35185rem;
+}
+
+.container .goods .item .info .num .input-num .iconfont {
+  flex: 1;
+  width: 33.33333%;
+  background-color: #f4f4f4;
+  text-align: center;
+  font-size: 0.35185rem;
+}
+
+.container .goods .item .info .num .input-num .icon-jian1 {
+  color: #ddd;
+}
+
+.container .goods .item .info .num .input-num .icon-jia1 {
+  color: #999;
+}
+
+.container .goods .item .info .num .iconfont {
+  line-height: 0.92593rem;
+  color: #999;
+  font-size: 0.48148rem;
+}
+
+.container .goods .point {
+  padding-left: 0.38889rem;
+  height: 0.97222rem;
+  line-height: 0.97222rem;
+  color: #999;
+  font-size: 0.2963rem;
+  border: 0.02778rem solid #f6f6f6;
+}
+
+.container .goods .point .btn {
+  width: 0.77778rem;
+  height: 0.42593rem;
+  line-height: 0.42593rem;
+  text-align: center;
+  background-color: #e53935;
+  color: #fff;
+  font-size: 0.31481rem;
+}
+
+.container .goods .note {
+  padding-left: 0.38889rem;
+  height: 0.97222rem;
+  line-height: 0.97222rem;
+  color: #999;
+  font-size: 0.2963rem;
+}
+
+.container .space {
+  height: 0.27778rem;
+  background-color: #F5F5F5;
+}
+
+.container .sp-space {
+  height: 3.7037rem;
+  background-color: #fff;
+}
+
+.container .totl {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  height: 1.42593rem;
+  width: 100%;
+  border-top: 0.02778rem solid #f6f6f6;
+  border-bottom: 0.02778rem solid #f6f6f6;
+}
+
+.container .totl > div {
+  flex: 1;
+  text-align: center;
+  font-size: 0.37037rem;
+  height: 1.42593rem;
+}
+
+.container .totl .t-price {
+  color: #999;
+  font-size: 0.33333rem;
+  background-color: #fff;
+}
+
+.container .totl .t-price p {
+  margin-top: 0.27778rem;
+}
+
+.container .totl .t-price strong {
+  color: #ff5722;
+  font-size: 0.40741rem;
+  font-weight: bold;
+}
+
+.container .totl .t-buy {
+  line-height: 1.42593rem;
+  color: #525252;
+  background-color: #f4f4f4;
+}
+
+.container .totl .t-pay {
+  line-height: 1.42593rem;
+  color: #fff;
+  background-color: #ff5722;
+}

@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
     <!-- 字体图标 -->
     <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_400435_1j0sdkogpsyvi.css">
+    <!-- 引入swiper -->
+    <link rel="stylesheet" type="text/css" href="assets/plugins/Swiper-3.4.2/dist/css/swiper.css">
 </head>
 <body>
 	<div class="container">
@@ -42,24 +44,25 @@
 	   	</div>
 	   	<div class="section">
 		   	<!-- 轮播图 start -->
-		   	<div class="ppt">
-		   		<ul>
-		   			<li>
+		   	<div class="ppt swiper-container">
+		   		<ul class="swiper-wrapper">
+		   			<li class="swiper-slide">
 			   			<a href="">		
 		   					<img src="assets/images/1b963be5-2ba4-29cf-e19b-d43fdae3bc04.webp">
 		   				</a>
 		   			</li>
-		   			<li>
+		   			<li class="swiper-slide">
 		   				<a href="">	
 		   					<img src="assets/images/501e1a9e327059b210935cc3b03d3ac8.jpg">
 		   				</a>
 		   			</li>
-		   			<li>
+		   			<li class="swiper-slide">
 			   			<a href="">	
 		   					<img src="assets/images/37133d912aa60965eadd2caaf73ab26c.jpg">
 			   			</a>
 		   			</li>
 		   		</ul>
+		   		<div class="swiper-pagination swiper-pagination-white"></div>
 		   		<div class="cricle">
 		   			<div></div>
 		   			<div></div>
@@ -247,6 +250,7 @@
 		   		<img class="m-item" src="assets/images/d55778b9-7144-2d36-1450-694b8a47b9db!358x480.webp">
 		   	</div>
 	   	</div>
+	   	<!-- 页面 footer start -->
 	   	<div class="footer">
 	   		<div class="main f-active">
 	   			<i class="iconfont icon-zhuye"></i>
@@ -265,6 +269,9 @@
 	   			<h3>我的</h3>
 	   		</div>
 	   	</div>
+	   	<!-- 页面 footer end -->
 	</div>
+	<script src="assets/plugins/Swiper-3.4.2/dist/js/swiper.min.js"></script>
+	<script src="assets/js/index.js"></script>
 </body>
 </html>														

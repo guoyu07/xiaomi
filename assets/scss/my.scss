@@ -7,6 +7,7 @@ a{
 }
 
 .container{
+	background-color: #f7f7f7;
 	.user{
 		padding:rem(48px);
 		height:rem(148px);
@@ -29,6 +30,7 @@ a{
 		padding:rem(40px) rem(44px) rem(40px) rem(50px);
 		height:rem(40px);
 		border-bottom:rem(4px) solid #dedbde;
+		background-color: #fff;
 		.mybill{
 			color:#212021;
 			font-size: rem(40px);
@@ -48,6 +50,7 @@ a{
 		justify-content:space-between;
 		padding: rem(68px) rem(80px);
 		height: rem(134px);
+		background-color: #fff;
 		>div{
 			width:(100%/3);
 			text-align:center;
@@ -71,6 +74,7 @@ a{
 		justify-content:space-between;
 		align-items:center;
 		padding: rem(50px) rem(40px) rem(55px) rem(50px);
+		background-color: #fff;
 		>span{
 			display: flex;
 			align-items:center;
@@ -78,8 +82,23 @@ a{
 			font-size: rem(40px);
 			>.iconfont{
 				margin-right:rem(50px);
-				color:#52bae7;
+				// color:#52bae7;
 				font-size: rem(52px);
+			}
+			.icon-zititubiao-{
+				color:#52bae7;
+			}
+			.icon-service{
+				color:#ff6d5a;
+			}
+			.icon-fangzi{
+				color:#ff8a42;
+			}
+			.icon-fmashangpin{
+				color:#ffb200;
+			}
+			.icon-shezhi2{
+				color:#848e9c;
 			}
 		}
 		>.iconfont{
